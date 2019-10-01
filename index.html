@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tip Calc</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="tip-calculator">
+            <div class="tip-inner">
+                <h1>Tip Calculator</h1>
+                <p>Enter bill amount:</p>
+                <label for="bill">$</label>
+                <input type="text" name="bill" id="bill" placeholder="bill amount">
+                <br>
+                <br>
+                <p>Choose percentage rate:</p>
+                <select name="percentage" id="percentage">
+                    <option value="5">5%</option>
+                    <option value="10">10%</option>
+                    <option value="15">15%</option>
+                    <option value="20">20%</option>
+                    <option value="25">25%</option>
+                    <option value="30">30%</option>
+                </select>
+                <br>
+                <button>Submit</button>
+                <br>
+                <span id="result"></span>
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
