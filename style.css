@@ -13,9 +13,17 @@ body{
 
 button{
     width: 100%;
-    height: 1.5rem;
+    height: 2rem;
     border: none; 
     background: gold;
+    border-radius: 1%;
+    transition: background 0.5s ease;
+}
+
+button:hover{
+    cursor: pointer;
+    background: #262626;
+    color: gold;
 }
 
 .heading{
@@ -26,13 +34,30 @@ button{
 .bill{
     display: flex;
     justify-content: space-between;
-    margin: 2%;
+    margin: 5% auto;
 }
 
 .rate{
     display: flex;
     justify-content: space-between;
-    margin: 2%;
+    margin: 5% auto;
+}
+
+input{
+    color:#fff;
+    border: none;
+    padding: 1%;
+    width: 30%;
+    background: transparent;
+    font-size: 1rem;
+}
+
+select{
+    border: none;
+    width: 17%;
+    background: transparent;
+    font-size: 1rem;
+    color: #fff;
 }
 
 .tip-calculator{
