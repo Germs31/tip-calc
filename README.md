@@ -5,4 +5,3 @@
 - CSS3
 - Javascript
 
-![tip calculator image](https://i.imgur.com/UQm4pMA.png)
