@@ -11,23 +11,27 @@
     <main>
         <div class="tip-calculator">
             <div class="tip-inner">
-                <h1>Tip Calculator</h1>
-                <p>Enter bill amount:</p>
-                <label for="bill">$</label>
-                <input type="text" name="bill" id="bill" placeholder="bill amount">
-                <br>
-                <br>
-                <p>Choose percentage rate:</p>
-                <select name="percentage" id="percentage">
-                    <option value="5">5%</option>
-                    <option value="10">10%</option>
-                    <option value="15">15%</option>
-                    <option value="20">20%</option>
-                    <option value="25">25%</option>
-                    <option value="30">30%</option>
-                </select>
-                <br>
+                <div class="heading">
+                    <h1>Tip Calculator</h1>
+                </div>
+                <div class="bill">
+                    <p>Bill Amount:</p>
+                    <input type="text" name="bill" id="bill" placeholder="bill amount">
+                </div>
+                <div class="rate">
+                    <p>rate:</p>
+                    <select name="percentage" id="percentage">
+                        <option value="5">5%</option>
+                        <option value="10">10%</option>
+                        <option value="15">15%</option>
+                        <option value="20">20%</option>
+                        <option value="25">25%</option>
+                        <option value="30">30%</option>
+                    </select>
+                </div>
                 <button>Submit</button>
+                <br>
+                <br>
                 <br>
                 <span id="result"></span>
             </div>
